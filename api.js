@@ -35,7 +35,7 @@ apiVersions["0.2.0"] = {
     };
 
     const hashObject = b64.encode(JSON.stringify(urlData));
-    return `../urlpages/#${hashObject}`;
+    return `http://` + window.location.hostname + `/urlpages/#${hashObject}`;
   },
 
   /* Return the page data from the object */

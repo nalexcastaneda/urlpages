@@ -75,7 +75,7 @@ javascript:(() => {
       };
 
       const hashObject = b64.encode(JSON.stringify(urlData));
-      return `../urlpages/#${hashObject}`;
+      return `http://` + window.location.hostname + `/urlpages/#${hashObject}`;
     },
   };
 
