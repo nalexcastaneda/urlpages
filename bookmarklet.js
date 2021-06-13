@@ -75,7 +75,7 @@ javascript:(() => {
       };
 
       const hashObject = b64.encode(JSON.stringify(urlData));
-      return `http://nalexcastaneda.github.io/urlpages/#${hashObject}`;
+      return `../urlpages/#${hashObject}`;
     },
   };
 

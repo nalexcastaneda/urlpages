@@ -35,7 +35,7 @@ apiVersions["0.2.0"] = {
     };
 
     const hashObject = b64.encode(JSON.stringify(urlData));
-    return `http://nalexcastaneda.github.io/urlpages/#${hashObject}`;
+    return `../urlpages/#${hashObject}`;
   },
 
   /* Return the page data from the object */
